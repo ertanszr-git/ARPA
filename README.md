@@ -1,4 +1,4 @@
-# ARPA
+# ARP Poisoning/Spoofing Alert Tool
 
 ARPA is a script for detecting Arp poisoning/spoofing and recording it.
 
