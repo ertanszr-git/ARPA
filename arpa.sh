@@ -1,16 +1,16 @@
 #!/bin/bash
 
 if [ $1 == "-h" ] || [ $1 == "--help" ]; then
-    echo "Usage: ARPA.sh [-h,--help] [-s <seconds>] [-i <interface>]"
+    echo "Usage: arpa [-h,--help] [-s <seconds>] [-i <interface>]"
     echo " -s <seconds> : interval in seconds between each check"
     echo " -i <interface> : interface to listen"
-    echo "Example: ARPA.sh -s 5 -i eth0"
+    echo "Example: arpa -s 5 -i eth0"
     echo "Logs will save in /tmp directory"
     exit 0
 fi
 
 if [ $# -eq 0 ]; then
-    echo "Usage: ARPA.sh [-h,--help] [-s <seconds>] [-i <interface>]"
+    echo "Usage: arpa [-h,--help] [-s <seconds>] [-i <interface>]"
     exit 1
 fi
 
