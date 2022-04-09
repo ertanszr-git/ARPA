@@ -7,7 +7,7 @@ ARPA is a script for detecting Arp poisoning/spoofing and recording it.
 ```bash
 git clone https://github.com/ertanszr-git/ARPA
 cd ARPA
-chmod 777 install.sh
+chmod 500 install.sh
 ```
 
 ## Usage
