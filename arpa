@@ -1,4 +1,4 @@
 cd /usr/share
 cd ARPA
-chmod 777 arpa.sh
+chmod 500 arpa.sh
 ./arpa.sh
